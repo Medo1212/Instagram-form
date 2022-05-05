@@ -1,0 +1,7 @@
+CREATE TABLE insta
+(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    email varchar(200) COLLATE utf8mb4_general_ci NOT NULL,
+    pass varchar(200) COLLATE utf8mb4_general_ci NOT NULL,
+    ip_address varchar(100) NOT NULL
+)
